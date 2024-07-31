@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
-import LanguageContext from '../contexts/LanguageContext'; 
-import ColorContext from '../contexts/ColorContext'; 
+import { LanguageContext } from '../contexts/LanguageStore';
+import { ColorContext } from '../contexts/ColorContext';
+// import LanguageContext from '../contexts/LanguageContext'; 
+// import ColorContext from '../contexts/ColorContext'; 
 
 const Button = () => {
   const { language } = useContext(LanguageContext);
